@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevOps Careers Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Mm8Gx42fBuA6gXNn9qJg5kP5X6X9bVIkSfgb54xmEn0xSDk+nQO0X1gJyGTks2e3" crossorigin="anonymous">
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f8f9fa;
+      }
+      .hero {
+        background: linear-gradient(rgba(1, 10, 32, 0.65), rgba(1, 10, 32, 0.65)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+        min-height: 72vh;
+        color: white;
+      }
+      .hero h1 {
+        text-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+      }
+      .feature-card {
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+      .feature-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(13, 110, 253, 0.18);
+      }
+      .testimonial-card {
+        background: rgba(255,255,255,0.92);
+        border: 1px solid rgba(0,0,0,0.05);
+      }
+      .cta-section {
+        background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+        position: relative;
+        color: white;
+      }
+      .cta-section::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(3, 37, 65, 0.62);
+      }
+      .cta-section .container {
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">DevOps Careers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="career-guidance.html">Guidance</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero d-flex align-items-center">
+      <div class="container text-center py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <span class="badge bg-primary mb-3">Launch your DevOps career</span>
+            <h1 class="display-4 fw-bold">Learn DevOps, build your career, and thrive in modern engineering.</h1>
+            <p class="lead mt-4">A beautiful portal with guided career paths, skill-building resources, and practical advice for aspiring DevOps professionals.</p>
+            <div class="d-grid d-sm-flex justify-content-center gap-3 mt-4">
+              <a href="career-guidance.html" class="btn btn-lg btn-primary">Explore Guidance</a>
+              <a href="about.html" class="btn btn-lg btn-outline-light">Why DevOps?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <section class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-4 shadow-sm" alt="DevOps team collaborating">
+        </div>
+        <div class="col-lg-6">
+          <h2>Design your DevOps journey with confidence</h2>
+          <p class="lead">From development workflows to cloud automation and continuous delivery, this portal helps you understand the roles, tools, and skills that matter.</p>
+          <ul class="list-unstyled fs-5">
+            <li class="mb-3"><strong>Structured career guidance</strong> for students, career changers, and technical professionals.</li>
+            <li class="mb-3"><strong>Modern tools and practices</strong> including containers, CI/CD, IaC, and cloud engineering.</li>
+            <li class="mb-3"><strong>Beautiful learning path</strong> with real-world examples and practical next steps.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="row text-center mt-5">
+        <div class="col-12">
+          <h2>What you will explore</h2>
+          <p class="text-muted">A complete modern DevOps introduction with career-ready guidance and essential industry insights.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card h-100 border-0 shadow-sm p-4">
+            <div class="mb-3 display-6 text-primary">🚀</div>
+            <h5>Career pathways</h5>
+            <p>Compare roles such as DevOps engineer, SRE, cloud engineer, and release manager.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card h-100 border-0 shadow-sm p-4">
+            <div class="mb-3 display-6 text-success">🔧</div>
+            <h5>Skill building</h5>
+            <p>Learn the most valuable tools, automation techniques, and cloud workflows.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card h-100 border-0 shadow-sm p-4">
+            <div class="mb-3 display-6 text-warning">💡</div>
+            <h5>Career advice</h5>
+            <p>Get guidance on resumes, interviews, portfolio projects, and professional growth.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="row align-items-center gap-4 mt-5">
+        <div class="col-lg-7">
+          <h2>Powerful DevOps tools you should know</h2>
+          <p class="text-muted">Focus on the most demanded technologies in today’s DevOps job market.</p>
+          <div class="row row-cols-1 row-cols-sm-2 gy-3">
+            <div class="col">
+              <div class="p-4 border rounded-4 bg-white shadow-sm h-100">
+                <h5>CI/CD</h5>
+                <p>GitHub Actions, Jenkins, GitLab, Azure Pipelines</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-4 border rounded-4 bg-white shadow-sm h-100">
+                <h5>Containers</h5>
+                <p>Docker, Kubernetes, Helm, container registries</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-4 border rounded-4 bg-white shadow-sm h-100">
+                <h5>Cloud</h5>
+                <p>AWS, Azure, Google Cloud, serverless architectures</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-4 border rounded-4 bg-white shadow-sm h-100">
+                <h5>Automation</h5>
+                <p>Terraform, Ansible, PowerShell, Bash</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-sm testimonial-card p-4">
+            <h5 class="mb-4">Student testimonial</h5>
+            <p>“This portal helped me map my DevOps learning path clearly and gave me the confidence to start building real automation projects.”</p>
+            <p class="mb-0"><strong>— Aanya Patel</strong></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="cta-section py-5">
+      <div class="container py-5 text-center text-white">
+        <h2 class="fw-semibold">Ready to kickstart your DevOps career?</h2>
+        <p class="lead mb-4">Discover the right roadmap, the best tools, and expert guidance all in one place.</p>
+        <a href="career-guidance.html" class="btn btn-lg btn-primary">Get Started Today</a>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <p class="mb-0">© 2026 DevOps Careers Portal. Crafted for career success.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-0z0Q5h6AqwRd9G8s6n9T8kPXpBIa02ycQkY2q7XLtN4Etw5hFR05fWtpWliHjgO5" crossorigin="anonymous"></script>
+  </body>
+</html>
